@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: #222;
+  align-items: center;
+}
+
+header input {
+  padding: 0.5rem;
+  width: 200px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.movie-card {
+  background: #333;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: #ff4c4c;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: #c8601b;
+
+}
